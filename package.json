@@ -1,0 +1,28 @@
+{
+	"name": "webbluetooth-bluez",
+	"description": "A Web Bluetooth like API for Bluez",
+	"version": "1.0.0",
+	"license": "MIT",
+	"main": "./index.js",
+	"author": {
+		"name": "hinzundcode",
+		"email": "chris-git@appucino.de"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git://github.com/hinzundcode/webbluetooth-bluez.git"
+	},
+	"keywords": [
+		"ble",
+		"bluez",
+		"bluetooth",
+		"bluetooth low energy"
+	],
+	"dependencies": {
+		"debug": "^4.1.1",
+		"dbus": "^1.0.3"
+	},
+	"os": [
+		"linux"
+	]
+}
